@@ -79,12 +79,7 @@ WSGI_APPLICATION = 'jogoforca.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
-
-        'NAME': 'JogoDaForca',
-        'HOST': 'localhost',
-        'USER': 'root',
-        'PASSWORD': 'root',
-        'PORT': '3306',
+        'NAME': BASE_DIR / 'jogoforca_db.sqlite3',
     }
 }
 
